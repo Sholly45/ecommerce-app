@@ -3,17 +3,18 @@
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js",
-    "build": "webpack --mode production",  // Add or verify this line
-    "test": "jest"  // Ensure you have this or similar for your tests
+    "build": "webpack --mode production",
+    "test": "jest"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    // other dependencies
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "webpack": "^5.0.0",
     "webpack-cli": "^4.0.0",
-    // other dev dependencies
+    "babel-loader": "^8.2.2",
+    "jest": "^26.6.0"
   }
 }
+
 
